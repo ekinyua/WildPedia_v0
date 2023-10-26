@@ -97,6 +97,8 @@ body{
     display: flex;
     flex-direction: row;
     height: 500px;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .about > * {
@@ -104,6 +106,14 @@ body{
     padding: 10px;
     object-fit: cover;
     color: white;
+}
+
+.about > img{
+    border:1px solid white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .about-cont{
@@ -133,7 +143,20 @@ body{
 
 .img-players > figure > a >img{
     width: 200px;
-    height: 150px;
+    height: 130px;
+}
+
+#sheldrick{
+    width: 150px;
+}
+
+#zsl{
+    width: 150px;
+    height: 130px;
+}
+
+#kws{
+    height: 130px;
 }
 
 .players-wrap{
