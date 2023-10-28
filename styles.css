@@ -196,16 +196,15 @@ body{
 }
 
 .heading-button{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 5px;
-    background-color: navy;
-    color: white;
-    font-weight: bold;
-    font-size: small;
-    border-style: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
 
 }
 
